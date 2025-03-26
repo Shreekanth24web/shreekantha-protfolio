@@ -1,0 +1,321 @@
+.home1,
+.home2,
+.home3
+  {
+      height: 100vh;
+      width: 100%;
+}
+
+.home1 {
+      background: url(../components/Asstes/images/react-img1.jpg) no-repeat center/cover;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+}
+
+.home1 .home1-inner {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+}
+
+.home1-inner {
+      font: bold 4rem Roboto;
+      margin-left: 8rem;
+
+}
+
+.home1-inner h1 {
+      font: bolder 8rem Roboto;
+      padding: 0.1rem;
+
+}
+
+.home1-inner p {
+      letter-spacing: 1.5px;
+      word-spacing: .5rem;
+      margin-top: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.home1-inner p:hover {
+      color: turquoise;
+      cursor: pointer;
+}
+
+.home1-inner p:hover {
+      filter: invert();
+}
+
+.home1-inner h1:hover {
+      color: teal;
+      cursor: pointer;
+}
+
+.home2,
+.home4 {
+      border: 0px solid gray;
+      filter: drop-shadow(0px 0px 10px rgb(27, 27, 70));
+      background-color: #ffffff;
+      width: 70%;
+      border-radius: 0px 100px 100px 0px;
+      height: 80vh;
+      padding: 0px 2rem;
+      flex-wrap: wrap;
+
+}
+
+.home2-hand {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      margin-top: 3rem;
+      margin-left: 2rem;
+      flex-wrap: wrap;
+}
+
+.home2-hand h1 {
+      font-size: 50px;
+      letter-spacing: 5px;
+      font-family: sans-serif;
+
+}
+
+.home2-hand-name h1 {
+      margin-top: 1rem;
+      margin-left: 2rem;
+      font-size: 45px;
+      font-weight: 600;
+      font-family: sans-serif;
+}
+
+.home2-hand-name h1 span {
+      color: blue;
+      font-size: 45px;
+      font-weight: bolder;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      background: whitesmoke;
+      padding: 0 10px;
+      border-radius: 5px;
+}
+
+.home2-hand img {
+      height: 65px;
+}
+
+.home2-part {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.home2-profile-img {
+      margin-top: 1.5rem;
+      width: 205px;
+      display: grid;
+      place-content: center;
+      border-radius: 20px 50px 20px 50px;
+      filter: drop-shadow(0px 0px 2px rgb(110, 110, 215));
+      flex-wrap: wrap;
+
+}
+
+.home2-profile-img img {
+      border-radius: 5px 50px 50px 5px;
+      width: 200px;
+      filter: drop-shadow(4px 4px 2px rgb(18, 18, 36));
+      flex-wrap: wrap;
+}
+
+.home2-hand-about p {
+      margin-top: 1rem;
+      margin-left: 2rem;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      line-height: 30px;
+      text-align: justify;
+      font-weight: 500;
+      font-family: sans-serif;
+}
+
+.home2-hand-about p span {
+      font-weight: bold;
+}
+
+.btn,
+.btn-project {
+      padding: 0.5rem 1rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      border-radius: 3px;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: sans-serif;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background-color: white;
+      border-color: lightgray;
+      border-radius: 3px;
+      filter: drop-shadow(0 0 3px rgb(2, 65, 255));
+}
+
+.btn:hover {
+      background-color: #9cb5ff;
+}
+
+.btn-project {
+      background-color: #9cb5ff;
+}
+
+.btn-project:hover {
+      background-color: white;
+}
+
+
+
+.main, .main-home4 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+}
+
+.home3-inner {
+      background-color: #ffffff;
+      width: 70%;
+      border-radius: 150px 0px 0px 150px;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 2rem;
+}
+
+.home3 {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      filter: drop-shadow(0px 0px 10px rgb(27, 27, 70));
+
+}
+
+.home3-inner h1 {
+      margin-top: -7rem;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+}
+
+.skills {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 90%;
+      flex-wrap: wrap;
+
+}
+
+.skill {
+      text-align: center;
+      background-color: black;
+      color: #ffffff;
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: all .5s;
+      margin-top: 10px;
+      animation: poptop infinite alternate-reverse linear 1s;
+      filter: drop-shadow(4px 5px 2px rgba(0, 0, 0, 0.749));
+}
+
+.icon {
+      font-size: 3rem;
+}
+
+.skill p,
+.home4-skill p {
+      font-weight: 900;
+      margin-top: 7px;
+      letter-spacing: 1px;
+}
+
+.skill:hover {
+      filter: invert();
+}
+
+.main-home4{
+      width: 85%;
+      display: flex;
+      align-items: center;
+      margin-left: 7rem;
+}
+
+.home4 {
+      display: grid;
+      grid-template-columns: auto auto;
+      flex: 1;
+      gap: 10px;
+      text-align: center;
+      flex-wrap: wrap;
+      filter: drop-shadow(0px 0px 5px rgb(27, 27, 70));
+      border-radius: 100px 100px 100px 100px;  
+
+}
+
+.home4-skill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+}
+
+progress {
+      width: 300px;
+      height: 18px;
+      border: 2px solid whitesmoke;
+      border-radius: 10px; 
+      flex-wrap: wrap;
+}
+
+progress::-webkit-progress-bar{
+      background-color:white;
+      border-radius: 10px;
+}
+progress::-webkit-progress-value {
+      background-color: royalblue;
+      border-radius: 10px;
+    
+}
+progress::before {
+      content:  attr(value) "%";
+      position: absolute;
+      width: 22%;
+      text-align: center;
+      font-size: 18px;
+      color: black;
+      font-weight: 600;
+      font-family: sans-serif;
+  }
+
+@keyframes poptop {
+      to {
+            transform: translateY(3rem);
+      }
+}
+
+ 

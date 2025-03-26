@@ -1,0 +1,1304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: Roboto;
+      list-style-type: none;
+      scroll-behavior: smooth;
+}
+
+body {
+      background-color: #b5baff2e;
+}
+
+/* screen size 1246px */
+@media (max-width:1248px) {
+      .home2-hand img {
+            height: 35px;
+      }
+
+      .home2-hand h1 {
+            font-size: 40px;
+      }
+
+      .home2-profile-img {
+            margin-top: 1.5rem;
+            width: 160px;
+      }
+
+      .home2-profile-img img {
+            width: 160px;
+      }
+
+      .skills {
+            width: 100%;
+      }
+
+      .skill {
+            margin-top: 10px;
+            height: 7rem;
+            width: 7rem;
+      }
+
+      .bulb a .bulb-btn,
+      .age a .age-btn,
+      .todo a .todo-btn,
+      .employe a .employe-btn,
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 350px;
+            margin-right: 80px;
+      }
+
+      .age a .age-btn {
+            margin-right: 70px;
+      }
+
+      .todo a .todo-btn {
+            margin-right: 200px;
+      }
+
+      .otp a .otp-btn {
+            margin-top: 410px;
+            margin-right: 120px;
+      }
+
+      .employe a .employe-btn {
+            margin-right: 70px;
+      }
+
+      .book a .book-btn {
+            margin-right: 20px;
+      }
+
+      .e-commerce a .e-commerce-btn {
+            margin-right: 30px;
+      }
+
+
+      .resume-img {
+            width: 500px;
+            height: 110vh;
+      }
+
+      .resume-img img {
+            height: 100vh;
+            width: 500px;
+      }
+
+      .resume-download-btn {
+            margin-left: 395px;
+
+
+      }
+
+}
+
+/* screen size 1064px */
+@media(max-width:1064px) {
+      .home1-inner {
+            font: bold 4rem Roboto;
+            margin-left: 10rem;
+      }
+
+      .home1-inner h1 {
+            font-size: 7rem;
+      }
+
+      .bulb a .bulb-btn,
+      .age a .age-btn,
+      .todo a .todo-btn,
+      .employe a .employe-btn,
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 400px;
+            margin-right: 140px;
+      }
+
+      .age a .age-btn {
+            margin-right: 130px;
+      }
+
+      .todo a .todo-btn {
+            margin-top: 340px;
+            margin-right: 100px;
+      }
+
+      .otp a .otp-btn {
+            margin-top: 405px;
+            margin-right: 80px;
+      }
+
+      .employe a .employe-btn {
+            margin-top: 405px;
+            margin-right: 140px;
+      }
+
+      .book a .book-btn {
+            margin-right: 100px;
+      }
+
+      .e-commerce a .e-commerce-btn {
+            margin-right: 120px;
+      }
+
+}
+
+/* screen size 1052px */
+@media (max-width:1052px) {
+      .home2-hand img {
+            height: 40px;
+      }
+
+
+      .home2-hand h1 {
+            font-size: 35px;
+      }
+
+      .home2-hand-name h1 {
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 30px;
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 30px;
+      }
+
+      .home2-profile-img {
+            margin-top: 1.5rem;
+            width: 120px;
+
+      }
+
+      .home2-profile-img img {
+            width: 120px;
+      }
+
+      .home3-inner h1 {
+            margin-top: -4rem;
+            font-size: 35px;
+      }
+
+      .skills {
+            width: 60%;
+      }
+
+      .skill {
+
+            height: 7rem;
+            width: 7rem;
+            margin-top: 3rem;
+      }
+
+      .icon {
+            font-size: 2.5rem;
+      }
+
+      .skill p {
+            font-size: 12px;
+
+      }
+}
+
+/* screen size 892px */
+@media (max-width:892px) {
+      .skills {
+            width: 70%;
+      }
+
+      .icon {
+            font-size: 2.5rem;
+      }
+
+      .skill p {
+            font-size: 12px;
+      }
+
+      .bulb {
+            margin-left: 150px;
+      }
+
+      .bulb a .bulb-btn {
+            margin-right: 180px;
+
+      }
+
+      .age {
+            width: 70%;
+            margin-left: 100px;
+      }
+
+      .age a .age-btn {
+            margin-right: 170px;
+      }
+
+      .todo {
+            width: 40%;
+            margin-left: 250px;
+
+      }
+
+      .todo a .todo-btn {
+            margin-top: 340px;
+            margin-right: 150px;
+      }
+
+      .otp {
+
+            width: 80%;
+            margin-left: 90px;
+      }
+
+      .otp a .otp-btn {
+            margin-top: 405px;
+            margin-right: 110px;
+      }
+
+      .employe {
+            margin-left: 150px;
+      }
+
+      .employe a .employe-btn {
+
+            margin-right: 180px;
+      }
+
+      .book {
+            margin-left: 120px;
+      }
+
+      .book a .book-btn {
+            margin-right: 150px;
+      }
+
+      .e-commerce {
+            margin-left: 100px;
+      }
+
+      .e-commerce a .e-commerce-btn {
+            margin-right: 170px;
+      }
+
+}
+
+/* screen size 878px */
+@media(max-width:878px) {
+      .home1-inner h1 {
+            font: bold 6rem Roboto;
+      }
+
+      .home2-hand img {
+            height: 35px;
+      }
+
+      .home2-hand {
+            gap: 10px;
+            margin-top: 3rem;
+            margin-left: 2rem;
+      }
+
+      .home2-hand h1 {
+            font-size: 30px;
+      }
+
+      .home2-hand-name h1 {
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 30px;
+      }
+
+      progress {
+            width: 200px;
+            height: 18px;
+      }
+
+
+}
+
+/* screen size 828px */
+@media (max-width:828px) {
+
+      .home4-skill .icon {
+            font-size: 2rem;
+      }
+
+      progress {
+            width: 270px;
+            height: 18px;
+      }
+
+      .projects img {
+            height: 45vh;
+            width: 100%;
+      }
+
+      .bulb {
+            height: 130px;
+            width: 75%;
+            margin-left: 100px;
+      }
+
+      .bulb a .bulb-btn,
+      .age a .age-btn,
+      .otp a .otp-btn,
+      .employe a .employe-btn,
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 300px;
+            margin-right: 120px;
+      }
+
+      .todo a .todo-btn {
+            margin-top: 250px;
+            margin-right: 100px;
+      }
+
+      .age a .age-btn {
+            margin-right: 150px;
+      }
+
+      .otp a .otp-btn {
+            margin-right: 100px;
+      }
+
+      .employe a .employe-btn {
+            margin-right: 160px;
+      }
+
+      .e-commerce a .e-commerce-btn {
+            margin-right: 150px;
+      }
+
+      .resume-head {
+            width: 80%;
+      }
+
+      .resume-img {
+
+            width: 500px;
+            height: 100vh;
+      }
+
+      .resume-img img {
+            height: 100vh;
+            width: 500px;
+      }
+}
+
+/* screen size 794px */
+@media(max-width:794px) {
+
+      .btn,
+      .btn-project {
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 12px;
+
+      }
+
+}
+
+/* screen size 781px */
+@media(max-width:781px) {
+      .nav-links {
+            gap: 30px;
+      }
+
+      .nav-links a {
+            font-size: 1rem;
+      }
+
+      .home1-inner p {
+            margin-top: 5px;
+            font-size: 3rem;
+      }
+
+      .home2-hand img {
+            height: 35px;
+      }
+
+      .home2-hand {
+            gap: 10px;
+            margin-top: -0rem;
+            margin-left: 2rem;
+
+      }
+
+      .home2-hand h1 {
+            font-size: 25px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: 2rem;
+            font-size: 25px;
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 25px;
+      }
+
+      .home2-profile-img img {
+            width: 100px;
+      }
+
+
+      .btn,
+      .btn-project {
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 12px;
+      }
+
+      .todo a .todo-btn {
+            margin-right: 80px;
+      }
+
+      .contact-inner {
+            border-radius: 100px 5px 100px 5px;
+
+      }
+}
+
+/* screen size 777px */
+@media (max-width:777px) {
+
+      .nav-links a {
+            font-size: 1rem;
+      }
+
+      .skills {
+            width: 90%;
+      }
+
+      .main-home4 {
+            width: 80%;
+            margin-left: 7rem;
+      }
+
+      progress {
+            width: 150px;
+            height: 14px;
+      }
+
+      .home4-skill p {
+            font-size: 12px;
+      }
+
+      progress::before {
+            width: 22%;
+            font-size: 15px;
+      }
+}
+
+/* screen size 763px */
+@media (max-width:763px) {
+      .nav-links {
+            gap: 10px;
+      }
+
+      .nav-links a {
+            font-size: 1rem;
+      }
+
+      .nav-links li {
+            margin-right: 1rem;
+      }
+
+      .main-home4 {
+            width: 75%;
+            margin-left: 7rem;
+      }
+
+      progress {
+            width: 150px;
+            height: 14px;
+      }
+
+      .home4-skill p {
+            font-size: 12px;
+      }
+
+      .home4-skill .icon {
+            font-size: 1.5rem;
+      }
+}
+
+
+/* screen size 709px */
+@media (max-width:709px) {
+      .home2-hand img {
+            height: 30px;
+      }
+
+      .home2-hand {
+            margin-top: 3rem;
+            margin-left: 2rem;
+      }
+
+      .home2-hand h1 {
+            font-size: 25px;
+      }
+
+      .home2-hand-name h1 {
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 18px;
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 18px;
+      }
+
+      .home2-hand-about p {
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 13px;
+      }
+
+      .home2-profile-img {
+            margin-top: 1.5rem;
+            width: 120px;
+      }
+
+      .home2-profile-img img {
+            border-radius: 5px 50px 5px 0px;
+            width: 100px;
+            filter: drop-shadow(4px 4px 2px rgb(18, 18, 36));
+            flex-wrap: wrap;
+      }
+
+      .main-home4 {
+            width: 80%;
+            margin-left: 5rem;
+      }
+
+      progress {
+            width: 130px;
+            height: 14px;
+      }
+
+      .home4-skill p {
+            font-size: 12px;
+      }
+
+      .home4-skill .icon {
+            font-size: 1.5rem;
+      }
+
+      .todo a .todo-btn {
+            margin-right: 40px;
+      }
+
+      .contact-inner {
+            width: 80%;
+            border-radius: 10px 5px 10px 5px;
+
+      }
+}
+
+/* screen size 650px */
+@media(max-width: 650px) {
+      .logo {
+            font-size: 1.2rem;
+      }
+
+      .nav-links li {
+            margin-right: 3rem;
+      }
+
+      .home1-inner h1 {
+            font: bold 5.2rem Roboto;
+      }
+
+      .contact-inner {
+            border-radius: 3px
+      }
+
+      .age,
+      .todo,
+      .book,
+      .e-commerce,
+      .bulb-btn,
+      .age-btn,
+      .todo-btn,
+      .otp-btn,
+      .employe-btn,
+      .book-btn,
+      .e-commerce-btn {
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 14px;
+      }
+
+      .bulb-btn:hover {
+            color: black;
+      }
+
+      .age-btn {
+            background: #3a89e9;
+      }
+
+      .age-btn:hover {
+            color: #3a89e9;
+      }
+
+      .todo {
+            margin-left: 150px;
+
+      }
+
+      .todo a .todo-btn {
+            margin-right: 110px;
+      }
+
+      .todo-btn {
+            background: #638d3a;
+      }
+
+      .todo-btn:hover {
+            color: #638d3a;
+      }
+
+      .otp-btn {
+            background: #008080;
+
+      }
+
+      .otp-btn:hover {
+            color: #008080;
+      }
+
+      .employe-btn {
+            background: #4169e1;
+
+      }
+
+      .employe-btn:hover {
+            color: #4169e1;
+      }
+
+
+      .book-btn {
+            background: #00b3ff;
+      }
+
+      .book-btn:hover {
+            color: #00b3ff;
+      }
+
+      .e-commerce-btn {
+            background: #ff4f4f;
+      }
+
+      .e-commerce-btn:hover {
+            color: #ff4f4f;
+      }
+
+      .bulb a .bulb-btn,
+      .age a .age-btn,
+      .otp a .otp-btn,
+      .employe a .employe-btn,
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 300px;
+            margin-right: 90px;
+      }
+
+      .contact-inner {
+            width: 90%;
+      }
+
+
+}
+
+/* screen size 630px */
+@media(max-width:630px) {
+
+      .nav-links a {
+            font-size: .9rem;
+      }
+
+      .nav-links li {
+            margin-right: 3rem;
+      }
+
+      .home1-inner p {
+            font-size: 2rem;
+      }
+
+      .home2 {
+            width: 72%;
+            border-radius: 0px;
+            margin: auto;
+            border-radius: 3px;
+      }
+
+      .home2-hand img {
+            height: 30px;
+      }
+
+      .home2-hand {
+            margin-top: -0rem;
+            margin-left: 2rem;
+
+      }
+
+      .home2-hand h1 {
+            font-size: 25px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: 2rem;
+            font-size: 18px;
+      }
+
+      .home2-hand-about p {
+            margin-left: 2rem;
+            font-size: 12px;
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 18px;
+      }
+
+      .home2-profile-img {
+            margin-top: 1.5rem;
+            width: 80px;
+      }
+
+      .home2-profile-img img {
+            border-radius: 5px;
+            width: 90px;
+      }
+
+      .btn,
+      .btn-project {
+            padding: 0.5rem;
+            margin-top: 1rem;
+            margin-left: 2rem;
+            font-size: 13px;
+      }
+
+      .btn-project {
+            background-color: #9cb5ff;
+      }
+
+      .btn-project:hover {
+            background-color: white;
+      }
+
+      .home3-inner {
+            width: 70%;
+            height: 90vh;
+            border-radius: 0px;
+            margin: auto;
+            border-radius: 3px;
+      }
+
+      .home3-inner h1 {
+            margin-top: .5rem;
+            font-size: 2rem;
+      }
+
+      .skills {
+            width: 80%;
+      }
+
+      .skill {
+            margin-top: 1.2rem;
+      }
+
+      @keyframes poptop {
+            to {
+                  transform: translateY(1rem);
+            }
+      }
+
+      .main-home4 {
+            width: 80%;
+            margin-left: 4rem;
+      }
+
+      progress {
+            width: 100px;
+            height: 10px;
+      }
+
+      .home4-skill p {
+            font-size: 10px;
+      }
+
+      progress::before {
+            width: 22%;
+            font-size: 12px;
+      }
+
+      .home4 {
+            border-radius: 1rem;
+      }
+
+      .carousel .thumb img {
+            height: 40px;
+            width: 100%;
+      }
+
+
+      .resume-img {
+
+            width: 350px;
+            height: 80vh;
+      }
+
+      .resume-img img {
+            height: 80vh;
+            width: 350px;
+      }
+
+      .resume-download-btn {
+            margin-left: 230px;
+
+      }
+
+}
+
+/* screen size 591px */
+@media(max-width:591px) {
+
+      .home1-inner h1 {
+            font: bolder 4rem Roboto;
+      }
+
+      .nav-links a {
+            font-size: 12px;
+
+      }
+
+      .nav-links {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 0px;
+      }
+
+
+      .home2-hand img {
+            height: 25px;
+      }
+
+      .home2-hand h1 {
+            font-size: 20px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: 2rem;
+            font-size: 16px;
+      }
+
+      .home2-hand-about p {
+            margin-left: 2rem;
+            font-size: 12px;
+
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 15px;
+      }
+
+      .home2-profile-img img {
+            width: 80px;
+      }
+
+      .main-home4 {
+            width: 85%;
+            margin-left: 2.5rem;
+      }
+
+      progress {
+            width: 200px;
+            height: 10px;
+      }
+
+      .todo a .todo-btn {
+            margin-right: 70px;
+      }
+}
+
+/* screen size 524px */
+@media(max-width:524px) {
+
+      .home1-inner h1 {
+            font: bolder 3.5rem Roboto;
+      }
+
+      .home2-hand img {
+            height: 20px;
+      }
+
+      .home2-hand h1 {
+            margin-top: 1rem;
+            font-size: 18px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: 2rem;
+            font-size: 16px;
+
+      }
+
+      .home2-hand-about p {
+            margin-left: 2rem;
+            font-size: 12px;
+
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 15px;
+      }
+
+      .home2-profile-img img {
+            width: 70px;
+      }
+
+      .main-home4 {
+            width: 85%;
+            margin-left: 2.5rem;
+      }
+
+      progress {
+            width: 150px;
+            height: 10px;
+      }
+
+      .todo a .todo-btn {
+            margin-right: 40px;
+      }
+
+}
+
+/* screen size 492px */
+@media(max-width:492px) {
+      .home2-hand {
+            margin-left: .5rem;
+      }
+
+      .home2-hand img {
+            height: 20px;
+            margin-top: .6rem;
+      }
+
+      .home2-hand h1 {
+            font-size: 18px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: .5rem;
+            font-size: 16px;
+      }
+
+      .home2-hand-about p {
+            margin-left: .5rem;
+            font-size: 12px;
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 15px;
+      }
+
+      .home2-profile-img img {
+            width: 70px;
+      }
+
+      .main-home4 {
+            width: 85%;
+            margin-left: 2.5rem;
+      }
+
+      progress {
+            width: 150px;
+            height: 10px;
+      }
+
+      .skills {
+            width: 90%;
+      }
+      .contact-inner {
+            width: 92%;
+      }
+      .form-group label {
+            width: 33%;
+      }
+
+}
+
+
+
+/* screen size 488px */
+@media(max-width:488px) {
+      .home1-inner h1 {
+            font: bolder 3rem Roboto;
+            margin-right: 2rem;
+      }
+
+      .home2-hand img {
+            height: 20px;
+            margin-top: .6rem;
+      }
+
+      .home2-hand h1 {
+            margin-top: 1rem;
+            font-size: 18px;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: .5rem;
+            font-size: 14px;
+
+      }
+
+      .home2-hand-about p {
+            margin-left: .5rem;
+            font-size: 10px;
+
+      }
+
+      .home2-hand-name h1 span {
+            font-size: 15px;
+            background: none;
+            padding: 0px;
+      }
+
+      .btn,
+      .btn-project {
+            margin-left: .5rem;
+            font-size: 12px;
+      }
+
+      .skills {
+            width: 100%;
+            flex-wrap: wrap;
+      }
+}
+
+/* screen size 426px */
+@media(max-width:426px) {
+      .home1-inner h1 {
+            font: bolder 3rem Roboto;
+            margin-right: 4rem;
+            padding: 0.1rem;
+
+      }
+
+      .home1-inner p {
+            font-size: 1.2rem;
+      }
+
+      .nav-links {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            margin-left: 2.5rem;
+            gap: 0px;
+      }
+
+      .nav-links li {
+            font-size: 18px;
+            font-weight: 900;
+      }
+
+      .contact-inner {
+            padding: 10px;
+      }
+
+      .home2-hand img {
+            height: 25px;
+      }
+
+      .home2 {
+            background-color: #ffffff;
+            width: 70%;
+            height: 90vh;
+            border-radius: 0px 0px 0px 0px;
+            margin: auto;
+            border-radius: 3px;
+      }
+
+      .skills {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+      }
+
+      .skill {
+            width: 6rem;
+            height: 6rem;
+      }
+
+      .projects img {
+            height: 35vh;
+            width: 100%;
+      }
+
+      .bulb {
+
+            width: 95%;
+            margin-left: 20px;
+      }
+
+      .age {
+
+            width: 90%;
+            margin-left: 25px;
+
+      }
+
+      .todo {
+            width: 60%;
+            margin-left: 70px;
+            padding: 3px;
+
+      }
+
+      .book {
+            width: 100%;
+            padding: 3px;
+            margin-left: 0px;
+            margin-top: 20px;
+      }
+
+      .otp {
+            width: 100%;
+            margin-left: 0px;
+      }
+
+      .employe {
+            width: 95%;
+            margin-left: 0px;
+      }
+
+      .age,
+      .e-commerce {
+            width: 100%;
+            margin-left: 0px;
+            padding: 3px;
+            font-size: 5px;
+            margin-top: 20px;
+      }
+
+      .bulb a .bulb-btn,
+      .age a .age-btn,
+      .todo a .todo-btn,
+      .otp a .otp-btn,
+      .employe a .employe-btn,
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 240px;
+            margin-right: 40px;
+
+      }
+
+      .book a .book-btn,
+      .e-commerce a .e-commerce-btn {
+            margin-top: 250px;
+            margin-right: 20px;
+
+      }
+
+      .resume-head {
+            padding: 5px;
+            width: 95%;
+
+      }
+
+      .resume-img {
+
+            width: 310px;
+            height: 70vh;
+      }
+
+      .resume-img img {
+            height: 70vh;
+            width: 310px;
+      }
+
+      .resume-download-btn {
+            margin-left: 200px;
+
+      }
+
+}
+
+/* screen size 400px */
+@media(max-width:400px) {
+
+      .home1-inner h1 {
+            font: bolder 3rem Roboto;
+            margin-right: 7rem;
+      }
+
+      .home2,
+      .home3-inner,
+      .home4 {
+            width: 90%;
+            height: 80vh;
+      }
+
+      .main-home4 {
+            width: 95%;
+            margin-left: .7rem;
+      }
+}
+
+/* screen size 373px */
+@media(max-width:373px) {
+      .home1-inner h1 {
+            font: bolder 2.5rem Roboto;
+            margin-right: 9rem;
+
+      }
+
+      .nav-links li {
+            width: 10%;
+      }
+
+      progress {
+            width: 100px;
+            height: 10px;
+      }
+}
+
+/* screen size 325px */
+@media(max-width:331px) {
+      .home2 {
+            height: 90vh;
+      }
+
+      .home2-hand h1 {
+            margin-top: 1rem;
+            margin-left: -1.5rem;
+      }
+
+      .home2-hand-name h1 {
+            margin-left: -1rem;
+      }
+
+      .home2-hand-about p {
+            margin-left: -1rem;
+            font-size: 12px;
+      }
+
+      .icon {
+            font-size: 2rem;
+      }
+      .form-group label {
+            width: 38%;
+      }
+}

@@ -1,0 +1,98 @@
+.contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      width: 100%;
+      flex-wrap: wrap;
+
+}
+
+.contact-inner {
+      background-color: white;
+      height: 70vh;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 150px 5px 150px 5px;
+      filter: drop-shadow(0px 0px 10px royalblue);
+}
+
+
+.contact-head {
+      padding: 7px;
+      background: #00808085;
+      width: 80%;
+      color: white;
+      filter: drop-shadow(5px 5px 3px #008080);
+      border-radius: 5px;
+      margin-bottom: 2rem;
+
+}
+
+.contact-head h1 {
+      filter: drop-shadow(6px -1px 3px black);
+      text-align: center;
+      font-family: cursive;
+}
+
+
+.form-group {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+
+}
+
+
+.form-group label {
+      font: bold 1rem cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 25%;
+     
+}
+
+.form-group input ,textarea{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right:1rem;
+      padding: 0px 12px;
+      height: 30px;
+      outline: none;
+      border: none;
+      box-shadow: 0px 0px 2px royalblue;
+      border-radius: 5px;
+      width: 100%;
+}
+.form-group textarea{
+      height: 90px;
+}
+
+.form-submit button {
+      background-color: #004991ed;
+      color: white;
+      height: 35px;
+      width: 50%;
+      margin-left: 6.5rem;
+      border: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-align: center;
+      font-family: sans-serif;
+      border-radius: 3px;
+      cursor: pointer;
+}
+
+.form-submit button:hover {
+      background-color: #004991;
+}
