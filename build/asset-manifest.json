@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Shreekanth_Portfolio/static/css/main.d56fee61.css",
-    "main.js": "/Shreekanth_Portfolio/static/js/main.8fb3bd8c.js",
-    "static/media/react-img1.jpg": "/Shreekanth_Portfolio/static/media/react-img1.00b198a0f0c818cb02aa.jpg",
-    "static/media/e-commerce.jpg": "/Shreekanth_Portfolio/static/media/e-commerce.1f636e99ada40eb9040b.jpg",
-    "static/media/resume-01.jpg": "/Shreekanth_Portfolio/static/media/resume-01.51acc59af38066b993d2.jpg",
-    "static/media/Employe-data-table.jpg": "/Shreekanth_Portfolio/static/media/Employe-data-table.280c1b561da39b1d1fbe.jpg",
-    "static/media/book-store.jpg": "/Shreekanth_Portfolio/static/media/book-store.4512b5e0ef4f56af0c1e.jpg",
-    "static/media/Shreekantha_Front-end_CV_Resume.pdf": "/Shreekanth_Portfolio/static/media/Shreekantha_Front-end_CV_Resume.dd9f2375470ba113d7a7.pdf",
-    "static/media/age.jpg": "/Shreekanth_Portfolio/static/media/age.3b0f2236c98e3f5feb1e.jpg",
-    "static/media/otp.jpg": "/Shreekanth_Portfolio/static/media/otp.a0e6b57c721b555d85c1.jpg",
-    "static/media/bulb.jpg": "/Shreekanth_Portfolio/static/media/bulb.76c42466293014f8d7e5.jpg",
-    "static/media/img-03.jpg": "/Shreekanth_Portfolio/static/media/img-03.33e04c44bba10c26dd96.jpg",
-    "static/media/to-do-App.jpg": "/Shreekanth_Portfolio/static/media/to-do-App.3dd76e77057d7b43d9fe.jpg",
-    "static/media/hand_icon.png": "/Shreekanth_Portfolio/static/media/hand_icon.9c7487cecb600f30901b.png",
-    "index.html": "/Shreekanth_Portfolio/index.html",
-    "main.d56fee61.css.map": "/Shreekanth_Portfolio/static/css/main.d56fee61.css.map",
-    "main.8fb3bd8c.js.map": "/Shreekanth_Portfolio/static/js/main.8fb3bd8c.js.map"
+    "main.css": "/static/css/main.4bf3c54e.css",
+    "main.js": "/static/js/main.a40560d2.js",
+    "static/media/react-img1.jpg": "/static/media/react-img1.00b198a0f0c818cb02aa.jpg",
+    "static/media/e-commerce.jpg": "/static/media/e-commerce.1f636e99ada40eb9040b.jpg",
+    "static/media/resume-01.jpg": "/static/media/resume-01.51acc59af38066b993d2.jpg",
+    "static/media/Employe-data-table.jpg": "/static/media/Employe-data-table.280c1b561da39b1d1fbe.jpg",
+    "static/media/book-store.jpg": "/static/media/book-store.4512b5e0ef4f56af0c1e.jpg",
+    "static/media/Shreekantha_Front-end_CV_Resume.pdf": "/static/media/Shreekantha_Front-end_CV_Resume.dd9f2375470ba113d7a7.pdf",
+    "static/media/age.jpg": "/static/media/age.3b0f2236c98e3f5feb1e.jpg",
+    "static/media/otp.jpg": "/static/media/otp.a0e6b57c721b555d85c1.jpg",
+    "static/media/bulb.jpg": "/static/media/bulb.76c42466293014f8d7e5.jpg",
+    "static/media/img-03.jpg": "/static/media/img-03.33e04c44bba10c26dd96.jpg",
+    "static/media/to-do-App.jpg": "/static/media/to-do-App.3dd76e77057d7b43d9fe.jpg",
+    "static/media/hand_icon.png": "/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "index.html": "/index.html",
+    "main.4bf3c54e.css.map": "/static/css/main.4bf3c54e.css.map",
+    "main.a40560d2.js.map": "/static/js/main.a40560d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d56fee61.css",
-    "static/js/main.8fb3bd8c.js"
+    "static/css/main.4bf3c54e.css",
+    "static/js/main.a40560d2.js"
   ]
 }
